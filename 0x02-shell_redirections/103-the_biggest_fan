@@ -1,2 +1,3 @@
-hsab/nib/!#
-1- f- ' \ d- tuc | ver | 11 n- daeh | 1 knr- tros | c- qinu | 1 k- tros | 1- f- tuc | 2+ n- liat
+#!/bin/bash
+tail
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 |  tr -s   | cut -d  -f3
