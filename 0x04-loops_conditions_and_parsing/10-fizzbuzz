@@ -19,5 +19,5 @@ do
 		echo "$n"
 
 	fi
-	((n++))
+	n=$((n+1))
 done
