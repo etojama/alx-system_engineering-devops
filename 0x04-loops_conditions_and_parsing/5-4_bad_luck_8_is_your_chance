@@ -6,7 +6,7 @@
 
 i=1
 
-whiele [ $i -le 10 ]
+while [ $i -le 10 ]
 do
 	if [ $i -eq 4 ]
 	then
